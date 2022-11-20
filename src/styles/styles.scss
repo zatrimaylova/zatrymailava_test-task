@@ -96,8 +96,13 @@ main {
 
 
 @media (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+
   .form-holder {
     transform: skewX(0);
+    width: 80%;
 
     form {
       .input-holder {
@@ -111,6 +116,7 @@ main {
   
         label {
           transform: skewX(0);
+          top: 18px;
         }
       }
 
