@@ -107,11 +107,13 @@ main {
     form {
       .input-holder {
         transform: skewX(0);
+        
         input {
           transform: skewX(0);
           width: 100%;
           margin-left: 0;
           padding-left: 4%;
+          background-color: rgba(224, 242, 236, 0.371);
         }
   
         label {
