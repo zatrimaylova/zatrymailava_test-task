@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: rgba(18, 24, 25, 0.689);
+  background-color: rgba(36, 48, 50, 0.558);
   font-family: sans-serif;
 }
 
@@ -117,16 +117,17 @@ main {
   height: 20px;
 
   span {
-    color: rgb(113, 35, 35);
+    color: rgb(217, 44, 44);
+    font-weight: bold;
   }
 
   .valid {
-    color: rgb(34, 86, 34);
+    color: rgb(19, 116, 19);
   }
 }
 
 .warning {
-  color: rgb(220, 132, 132);
+  color: rgb(217, 44, 44);
 }
 
 .hidden-message {
