@@ -21,6 +21,8 @@ main {
   align-items: center;
   justify-content: center;
   height: 100vh;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .form-holder {
@@ -94,6 +96,25 @@ main {
   }
 }
 
+.messages {
+  height: 20px;
+
+  span {
+    color: rgb(113, 35, 35);
+  }
+
+  .valid {
+    color: rgb(34, 86, 34);
+  }
+}
+
+.warning {
+  color: rgb(220, 132, 132);
+}
+
+.hidden-message {
+  display: none;
+}
 
 @media (max-width: 600px) {
   .container {

@@ -10,15 +10,20 @@
   <main>
     <div class="container">
       <div class="form-holder">
-        <form action="submit">
+        <form id="form" action="submit">
           <div class="input-holder">
-            <input id="phoneNumber" type="tel" maxlength="20">
+            <input id="phone-number" type="tel" maxlength="20">
             <label id="labelEl" for="phone">Ваш номер...</label>
           </div>
-          <div id="order" class="button-holder">
-            <input type="submit" value="заказать" />
+          <div class="button-holder">
+            <input id="order" type="submit" value="заказать" />
           </div>
         </form>
+      </div>
+      <div class="messages">
+        <p id="warn-message" class="warning hidden-message">Простите, произошла ошибка!</p>
+        <p id="result-message" class="result hidden-message">Введён <span id="validation" class="valid"></span> номер телефона в международном формате</p>
+        <p id="valid-message" class="warning hidden-message">Необходимо ввести номер телефона</p>
       </div>
     </div>
   </main>

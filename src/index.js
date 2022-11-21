@@ -1,3 +1,4 @@
 import './styles/styles.scss';
 
-import './scripts/label.js';
+import './scripts/on-focus';
+import './scripts/form';
